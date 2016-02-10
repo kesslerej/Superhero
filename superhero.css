@@ -1,0 +1,42 @@
+h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    border: solid;
+    border-radius: 100px;
+    border-width: 10px;
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+    
+}
+
+h2 {
+    color: yellow;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+p {
+    color: yellow;
+    font-family: fantasy;
+}
+
+@keyframes header {
+    from {padding-left: 100px;}
+    to {padding-left: 900px;}
+}
+
+h1 {
+    padding-left: 100px;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-name: header;
+    animation-iteration-count: infinite;
+    
+}
+
+.body {
+    text-align: center;
+}
